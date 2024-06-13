@@ -8,6 +8,8 @@ public class FlyBehavior : MonoBehaviour
     [SerializeField] private float _velocity = 1.5f;
     [SerializeField] private float _rotationSpeed = 10f;
 
+    public SpriteRenderer spriteRenderer;
+    public Sprite newSprite;
     private Rigidbody2D _rb;
     private void Start()
     {
@@ -29,6 +31,7 @@ public class FlyBehavior : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
+        spriteRenderer.sprite = newSprite;
         GameManager.instance.GameOver();
     }
 }

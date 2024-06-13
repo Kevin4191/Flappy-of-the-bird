@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
+ 
     public static GameManager instance;
 
     [SerializeField] private GameObject _gameOverCanvas;
@@ -21,6 +22,7 @@ public class GameManager : MonoBehaviour
 
     public void GameOver()
     {
+
         _gameOverCanvas.SetActive(true);
 
         Time.timeScale = 0f;
@@ -30,4 +32,5 @@ public class GameManager : MonoBehaviour
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
+    
 }
