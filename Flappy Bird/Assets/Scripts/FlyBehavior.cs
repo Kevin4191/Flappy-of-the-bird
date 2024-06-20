@@ -12,7 +12,7 @@ public class FlyBehavior : MonoBehaviour
     public Sprite newSprite;
     private Rigidbody2D _rb;
     public AudioClip backgroundMusic; 
-      public AudioClip explosionSound;
+    public AudioClip explosionSound;
     private AudioSource m_MyAudioSource;
 
     private void Start()

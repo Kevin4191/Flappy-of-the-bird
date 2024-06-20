@@ -1404,8 +1404,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _gameOverCanvas: {fileID: 381877838}
-  youtube_bzni5Pr1puA_audio: {fileID: 0}
-  youtube_s2FD3o8bQVU_audio: {fileID: 0}
 --- !u!4 &1293579074
 Transform:
   m_ObjectHideFlags: 0
@@ -1608,6 +1606,8 @@ MonoBehaviour:
   _rotationSpeed: 10
   spriteRenderer: {fileID: 1345910161}
   newSprite: {fileID: 21300000, guid: 344156d079da8f549b2ac9d46b524e45, type: 3}
+  backgroundMusic: {fileID: 8300000, guid: 7847606934fd3bc48a80f30fcdfc5830, type: 3}
+  explosionSound: {fileID: 8300000, guid: ec5955b0292b7fe4c9154c7d55620e67, type: 3}
 --- !u!1 &1406450256
 GameObject:
   m_ObjectHideFlags: 0
